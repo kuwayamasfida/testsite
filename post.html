@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>投稿ページ｜BLUE DRIVE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin">
+
+<h1>中古車 投稿ページ</h1>
+
+<form id="postForm" class="post-form">
+  <label>
+    車名
+    <input type="text" id="carName" required>
+  </label>
+
+  <label>
+    説明
+    <textarea id="carDesc" required></textarea>
+  </label>
+
+  <label>
+    画像URL
+    <input type="text" id="carImg" placeholder="https://example.com/car.jpg">
+  </label>
+
+  <button type="submit">投稿する</button>
+</form>
+
+<script src="post.js"></script>
+</body>
+</html>
