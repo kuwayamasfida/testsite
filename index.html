@@ -1,115 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BLUE DRIVE｜中古車販売店</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>BLUE DRIVE｜中古車販売</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ===== ヘッダー ===== -->
-  <header class="header">
-    <div class="logo">BLUE DRIVE</div>
-    <nav>
-      <a href="#about">ABOUT</a>
-      <a href="#cars">CARS</a>
-      <a href="#service">SERVICE</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-  </header>
+<header class="header">
+  <div class="logo">BLUE DRIVE</div>
+  <nav>
+    <a href="#cars">CARS</a>
+    <a href="post.html">POST</a>
+  </nav>
+</header>
 
-  <!-- ===== ヒーロー ===== -->
-  <section class="hero">
-    <div class="hero-overlay">
-      <h1>信頼できる一台を、あなたに。</h1>
-      <p>厳選された高品質な中古車のみを取り扱っています</p>
-      <button id="heroBtn">在庫を見る</button>
-    </div>
-  </section>
+<section class="hero">
+  <div class="hero-overlay">
+    <h1>信頼できる一台を、あなたに。</h1>
+    <button id="heroBtn">在庫を見る</button>
+  </div>
+</section>
 
-  <!-- ===== ABOUT ===== -->
-  <section id="about" class="section">
-    <h2>ABOUT US</h2>
-    <div class="two-column">
-      <div class="text">
-        <p>
-          BLUE DRIVEは、品質と透明性にこだわった中古車販売店です。
-          専門スタッフによる厳格なチェックを通過した車両のみを掲載しています。
-        </p>
-      </div>
-      <div class="image-box">
-        <!-- 画像差し替え枠 -->
-        <span>IMAGE</span>
-      </div>
-    </div>
-  </section>
+<section id="cars" class="section bg-dark">
+  <h2>FEATURED CARS</h2>
+  <div id="carList" class="card-grid"></div>
+</section>
 
-  <!-- ===== CARS ===== -->
-  <section id="cars" class="section bg-dark">
-    <h2>FEATURED CARS</h2>
+<footer class="footer">
+  © BLUE DRIVE
+</footer>
 
-    <div class="card-grid">
-      <div class="card">
-        <div class="image-box small"><span>CAR IMAGE</span></div>
-        <h3>TOYOTA 86</h3>
-        <p>スポーティな走りと洗練されたデザイン</p>
-      </div>
-
-      <div class="card">
-        <div class="image-box small"><span>CAR IMAGE</span></div>
-        <h3>NISSAN SKYLINE</h3>
-        <p>力強さと快適性を兼ね備えた一台</p>
-      </div>
-
-      <div class="card">
-        <div class="image-box small"><span>CAR IMAGE</span></div>
-        <h3>HONDA CIVIC</h3>
-        <p>街乗りにも最適な万能モデル</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== SERVICE ===== -->
-  <section id="service" class="section">
-    <h2>SERVICE</h2>
-
-    <div class="service-list">
-      <div class="service-item">
-        <div class="image-box small"><span>IMAGE</span></div>
-        <h4>全車保証付き</h4>
-        <p>購入後も安心の保証サービス</p>
-      </div>
-
-      <div class="service-item">
-        <div class="image-box small"><span>IMAGE</span></div>
-        <h4>ローン対応</h4>
-        <p>柔軟な支払いプランをご提案</p>
-      </div>
-
-      <div class="service-item">
-        <div class="image-box small"><span>IMAGE</span></div>
-        <h4>買取・下取り</h4>
-        <p>高価買取を実施中</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="section bg-dark">
-    <h2>CONTACT</h2>
-    <p class="center">お気軽にお問い合わせください</p>
-
-    <div class="contact-box">
-      <p>📞 000-1234-5678</p>
-      <p>📍 東京都〇〇区〇〇</p>
-    </div>
-  </section>
-
-  <footer class="footer">
-    © 2026 BLUE DRIVE
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
